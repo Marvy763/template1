@@ -1,0 +1,105 @@
+/*add fonts*/
+@font-face {
+    font-family: great vibes;
+    src: url(fonts/great-vibes/GreatVibes-Regular.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: banyu langits;
+    src: url(fonts/banyu-langits/BanyuLangitsDemo/Banyu-langits.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* start global*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family : great vibes;
+}
+/*end global*/
+/*start body */
+body {
+    background : url(one.jpg);
+    background-size: cover;
+    font-family: great vibes,banyu langits,sans-serif;
+}
+/*end body*/
+.title {
+    text-align: center;
+    padding: 50px 0 20px;
+    text-transform : uppercase;
+}
+
+.title h1 {
+    color: #262626;
+    font-size: 36px;
+    font-family: banyu langits,sans-serif;
+
+}
+.container{
+    width:50%;
+    height:450px;
+    background:#fff;
+    margin:0 auto;
+    border:2px solid #fff;
+    box-shadow:0 15px 40px rgba(0,0,0,0.5);
+}
+.container .left{
+    float:left;
+    width:50%;
+    height: 450px;
+    background: url(three.jpg);
+    background-size:cover;
+    box-sizing: border-box;
+}
+.container .right{
+    float: right;
+    width : 50%;
+    height : 450px;
+    box-sizing: border-box;
+}
+.formBox{
+    width: 100%;
+    padding : 80px 40px;
+    box-sizing: border-box;
+    height:450px;
+    background:#fff;
+}
+.formBox input[type ="text"],
+.formBox input[type ="password"]{
+ margin-bottom: 20px;
+ border:none;
+ border-bottom:2px solid #a6af13;
+ outline:none;
+ height: 40px;
+ width: 90%;
+ display:block;
+ font-size:30px;
+}
+.formBox input[type ="text"]:focus,
+.formBox input[type ="password"]:focus{
+ border-bottom: 2px solid #262626;
+ }
+ .formBox input[type ="submit"]{
+    border : none;
+    outline:none;
+    height:50px;
+    width:90%;
+    display:block;
+    font-size:30px;
+    color:#fff;
+    background:#262626;
+    cursor:pointer;
+    margin-bottom:10px;
+ }
+ .formBox input [type ="submit"] :hover{
+    background : #a6af13;
+ }
+ .formBox a {
+    color: #262626;
+    font-size : 25px;
+    font-weight: bold;
+    text-decoration: none;
+    
+ }
